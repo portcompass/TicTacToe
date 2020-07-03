@@ -56,10 +56,12 @@ print("i have created a tick tack toe board. click on the screen then press o fo
 
 
 # WHOA!  Be careful!
-# This is what we call "lost code".
-# You probably used this function (i.e. "launched" it somewhere else in the code) in some previous version.
+# This function called "circle_shape" is what we call "lost code".
+# You probably used this function (i.e. "launched" it somewhere else in the code) 
+# in some previous version.
 # But now, this program never launches this function.
-# Probably this happened due to the redesign in which we now have a function to draw X and a function to draw O.
+# Probably this happened due to the redesign in which we now have a
+# function to draw X and a function to draw O.
 # This function "circle_shape" is no longer being used.
 # You should DELETE any "lost function" to keep yourself from getting confused.
 def circle_shape():
